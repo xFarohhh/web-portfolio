@@ -48,8 +48,9 @@ function artFolders(image1, image2, image3){
             if(window.innerWidth<=616){
                 image1.style.scale=0.9;
             }
-        },20)
+        },30)
 }
+//end of art folder
     // changes the purple text on the home screen
     const typed = new Typed('.multiText', {
     strings: ['C#, Html, JavaScript and Css', '2D Asset Design and art', 'and 3D Model Design'],

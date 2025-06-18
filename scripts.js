@@ -51,19 +51,6 @@ function artFolders(image1, image2, image3){
         },20)
 }
 
- let container = document.getElementById('artContainer')
-        console.log(container);
-        var getData = setInterval(function(event){
-            if(isOpen ==true){
-            container.addEventListener("click",()=>{
-            console.log("Something pressed")
-            gsap.fromTo('#testImage',{scale:2, duration:2}, {scale:1,duration:2});
-            isOpen=false;
-            console.log(isOpen);
-            })
-        }
-},20)
-
 
     // changes the purple text on the home screen
     const typed = new Typed('.multiText', {

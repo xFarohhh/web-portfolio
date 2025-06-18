@@ -23,6 +23,7 @@ function artFolders(image1, image2, image3){
     image1 = document.getElementById("image1");
     image2 = document.getElementById("image2");
     image3 = document.getElementById("image3");
+    let isOpen= false;
 
     const container=document.querySelector('.container')
     console.log(container)

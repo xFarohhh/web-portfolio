@@ -50,6 +50,17 @@ function artFolders(image1, image2, image3){
             }
         },30)
 }
+
+
+
+
+
+
+
+
+
+
+
 //end of art folder
     // changes the purple text on the home screen
     const typed = new Typed('.multiText', {

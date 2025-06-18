@@ -1,0 +1,23 @@
+ 	WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+	CodingNepal. (2024, August 24). How to create responsive card slider in HTML CSS & JavaScript | Step-by-Step tutorial [Video]. YouTube. https://www.youtube.com/watch?v=VUtJ7FWCfZA
+ 	WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+   	MiladiCode. (2025, May 14). Build a Stunning 3D Website with React, Tailwind & Spline | Beginner Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=Y__tSvn9_M8
+	MiladiCode. (2025b, May 14). Build a Stunning 3D Website with React, Tailwind & Spline | Beginner Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=Y__tSvn9_M8
+	developedbyed. (2021, December 22). Javascript animations for Beginners [Video]. YouTube. https://www.youtube.com/watch?v=r1iul4uRFuE
+
+
+ cdn:
+        typed: 
+
+        //The info gathered from code in relation to typed was the multitext effect used in the home page
+        
+        WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |
+            Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+
+        cdn:https://cdnjs.com/libraries/typed.js/2.0.10
+
+
+        Projects showcased: 
+            The drawing showcased was used in the second assignment for Marketeting and Social Media(Main Evidence 2, submitted 2025).
+            
+            The 3D models used in the scene was gathered from projects submitted in 2024 for 3D asset design during my Higher Certificate studies.

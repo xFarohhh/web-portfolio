@@ -50,8 +50,6 @@ function artFolders(image1, image2, image3){
             }
         },20)
 }
-
-
     // changes the purple text on the home screen
     const typed = new Typed('.multiText', {
     strings: ['C#, Html, JavaScript and Css', '2D Asset Design and art', 'and 3D Model Design'],

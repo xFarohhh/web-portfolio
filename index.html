@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+
+        <!--References
+        Website layout: 
+
+        //Elements from the 2 videos were used in the creation of the website layout
+            WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |
+            Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+
+            CodingNepal. (2024, August 24). How to create responsive card slider in HTML CSS & JavaScript |
+             Step-by-Step tutorial [Video]. YouTube. https://www.youtube.com/watch?v=VUtJ7FWCfZA
+
+        Multi text:
+            WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |
+            Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+        
+        Spline:
+            MiladiCode. (2025, May 14). Build a Stunning 3D Website with React, Tailwind & Spline |
+            Beginner Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=Y__tSvn9_M8
+
+            MiladiCode. (2025b, May 14). Build a Stunning 3D Website with React, Tailwind & Spline | 
+            Beginner Tutorial [Video]. YouTube. https://www.youtube.com/watch?v=Y__tSvn9_M8
+
+        gsap:
+            developedbyed. (2021, December 22). Javascript animations for Beginners [Video]. YouTube. https://www.youtube.com/watch?v=r1iul4uRFuE
+
+            cdn:
+        typed: 
+
+        //The info gathered from code in relation to typed was the multitext effect used in the home page
+        
+        WebDev Campus. (2024, July 12). Fully Responsive Personal Portfolio Website using HTML CSS and JavaScript |
+            Portfolio Website HTML [Video]. YouTube. https://www.youtube.com/watch?v=T8XzrXRu-rA
+
+        cdn:https://cdnjs.com/libraries/typed.js/2.0.10
+
+
+        Projects showcased: 
+            The drawing was used in the second assignment for Marketeting and Social Media.
+            
+            The 3D models used in the scene was gathered from projects submitted in 2024 for 3D asset design during my Higher Certificate studies.
+        -->
+        
+        <!--sets the background image on the home page-->
+        <img class="gradientImage" src="/images/gradient.png" alt="gradient">
+        <div class="layer-blur"></div>
+
+        <!--Navigation bar-->
+        <div class="navContainer">
+            <header class="header">
+            <a href="#home" class="logo">Keagan Robertson</a>
+
+            <button class="menuButton" id="menuButton"></button>
+            <div class="sideBar" id="sideBar">
+                <li class="barList">
+                    <a href="#home">Home</a>
+                    <a href="#programmingSection">Programming</a>
+                    <a href="#artSection">Art</a>
+                    <a href="#Models">3D Models</a>
+                    <a href="#contactFooter">Contact</a>
+                </li>
+            </div>
+
+            <nav class="navBar"><!--Listed items on the navigation bar that takes the user to different segments of the page-->
+                <a href="#home">Home</a>
+                <a href="#programmingSection">Programming</a>
+                <a href="#artSection">Art</a>
+                <a href="#Models">3D Models</a>
+                <a href="#contactFooter">Contact</a>
+
+            </nav>
+            </header>
+
+        </div>
+        <!--End of Navigation bar-->
+
+        <!--Home Section-->
+          <section class="home" id="home">
+            <div class="aboutHeader">
+                <h2 class="heading">About me</h2>
+            </div>
+                <div class="homeImage">
+                    <image src="/images/Matric dance.PNG" alt="Image"></image>
+                </div>
+                <div class="homePage">
+                    <h1>Hi, I am Keagan Robertson</h1>
+                    <h2>I am currently a student at SAE institute studying a Bacherlor of arts in game design and production</h2>
+                    <h3>This website is a compilation of all the work I have completed up until this point</h3>
+                    <h4>So far I have experience in: <span class="multiText"></span></h4>
+                </div>
+            </section>
+        <!--End of Home section-->
+
+        <!--Programming section-->
+        <section class="programmingSection" id="programmingSection">
+                <div class="programmingContent">
+                    <h2 class="heading">Programming</h2>
+                    <h3>I have currently done work in c#, Javascript, css and HTML</h3>
+
+                    <div class="programmingFolders">
+                        <div class="box" id="c#Folder">
+                            <h3>C# Folder</h3>
+                            <p>This folder includes scripts that I have written out so far within Unity</script></p>
+                            <li>
+                                <p>Script 1</p>
+                                <p>Script 2</p>
+                                <p>Script 3</p>
+                            </li>
+
+                        </div>
+                        <div class="box" id="htmlFolder">
+                            <h3>Html Folder</h3>
+                            <p>This folder includes the work I have done with HTML, CSS and Javascript</p>
+                            
+                        </div>
+                        <div class="box" id="c++Folder">
+                            <h3>C++ folder</h3>
+                            <p>This folder is yet to be populated.</p>
+                        </div>
+                         
+                    </div>
+                </div>
+            </section>
+        <!--End of programming section-->
+
+        <!--Art Section-->  
+            <section class="artSection" id="artSection">
+                <!--Heading for the section-->
+                <h2 class="heading"> My <span>Art</span></h2>
+               
+                <div class="container" id="artContainer" > <!--Container holding the art items-->
+                    <div class="card-wrapper">
+                    
+                    <ul class="cardList">  <!--List containing the art items and variables-->
+                        <li class="cardItem" id="image1">
+                             <!--Image 1-->
+                            <a href="#artSection" class="cardLink">
+                               <img src="/images/GDD Me 2 drawings.png" alt="image" class="cardImage" id="testImage">
+                               <p class="badge">This was digitally drawing for a project completed in 2025</p>
+                            </a>
+                            
+                        </li>
+
+                         <!--Image 2-->
+                        <li class="cardItem" id="image2">
+                            <a href="#artSection" class="cardLink">
+                               <img src="" alt="image" class="cardImage">
+                               <p class="badge 2025 drawing">For future use</p>
+                            </a>
+                        </li>
+
+                         <!--Image 3-->
+                        <li class="cardItem" id="image3">
+                            <a href="#artSection" class="cardLink">
+                               <img src="" alt="image" class="cardImage">
+                               <p class="badge">For when I stop drawign with 2 left hands
+                               </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                     <!--Additional variables-->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                    </div>
+                <div class="popupImages">
+                    <img src="/images/GDD Me 2 drawings.png" alt="image">
+                </div>
+                    <div class="closeButton" id="closeButton"></div>
+                </div>
+            </section>
+        <!--End of art Section-->
+
+        <!--3D models section-->
+            <section class="Models" id="Models">
+                <h2 class="heading">3D Models</h2>
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/mAVuQkmdAyNYCIAu/scene.splinecode"></spline-viewer>
+                <!--
+                <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.11/build/spline-viewer.js"></script>
+                <spline-viewer url="https://prod.spline.design/mAVuQkmdAyNYCIAu/scene.splinecode"></spline-viewer>
+                -->
+            </section>
+        <!--End of 3d Models section-->
+
+        <!--Contacts Footer-->
+            <footer class="Contact" id="contactFooter">
+                <h2 class="heading">My platforms</h2>
+               <div class="socialMedia">
+                <a href="https://www.linkedin.com/in/keagan-robertson-bb4816369/">
+                    <img src="images/LinkedIn/linkedin-svgrepo-com.svg" alt="LinkedIn Logo" class="linkedinLogo">
+                </a>
+
+                <a href="https://github.com/xFarohhh">
+                    <img src="images/github/github-mark.svg" alt="github Logo" class="githubMark">
+                </a>
+
+                 <a href="https://xfarohhh.itch.io">
+                    <img src="images/itch/itch-io.svg" alt="itch logo" class="itch-SVG">
+                </a>
+                <a href="">
+                    <img src="images/Instagram/instagram-svgrepo-com.svg" alt="Instagram Logo" class="instaLogo">
+                </a>
+               </div>
+            </footer>
+
+        <!--gsap cdn-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+        <!--Typed-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js" integrity="sha512-tQQXRDB2wEmuJGtFrmmoFYzNTq8StA1XJrfO0OQbbTxd9G0CwaTDL6/C1y805IlvBVrMwOqob1kf6r/2U5XXVg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        
+        <script type="module" src="scripts.js" async defer></script>
+    </body>
+</html>

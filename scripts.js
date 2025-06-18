@@ -1,4 +1,4 @@
-
+console.log("This website is also hosted on GitHub, the source code can be found here: https://github.com/xFarohhh/web-portfolio" )
 //Programming section
 function programmingFolders(folder1, folder2, folder3){
 
